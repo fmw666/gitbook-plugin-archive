@@ -1,0 +1,37 @@
+{
+  "name": "gitbook-plugin-archive",
+  "description": "Add tags and date to GitBook",
+  "author": "fmw666 <fmw19990718@gmail.com>",
+  "version": "1.0.0",
+  "engines": {
+      "gitbook": "*"
+  },
+  "homepage": "https://github.com/fmw666/gitbook-plugin-archive",
+  "dependencies": {
+    "github-slugid": "^1.0.1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/fmw666/gitbook-plugin-archive.git"
+  },
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/fmw666/gitbook-plugin-archive/issues"
+  },
+  "gitbook": {
+      "properties": {
+          "placement": {
+              "type": "string",
+              "description": "placement to display tags and date on the page",
+              "default": "top"
+          }
+      }
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "tag",
+    "date",
+    "archive"
+  ]
+}
